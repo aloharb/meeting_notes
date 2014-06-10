@@ -24,3 +24,7 @@ config/secrets.yml
 .rvmrc
 .vagrant/*
 .DS_Store
+
+.ruby-gemset
+
+.ruby-version
