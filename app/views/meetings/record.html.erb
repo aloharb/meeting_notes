@@ -1,0 +1,22 @@
+<h1>Recorded Notes For Meeting</h1>
+<p><h1><%= @meeting.name %></h1></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @meeting.date %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @meeting.description %>
+</p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @meeting.owner %>
+</p>
+
+<%= render 'record_form' %>
+
+<%= link_to 'Edit', edit_meeting_path(@meeting) %>
+<%= link_to 'Back', meetings_path %>
