@@ -23,9 +23,9 @@
 <%= link_to 'Edit', edit_meeting_path(@meeting), class: "btn btn-default"  %> |
 <%= link_to 'Back', meetings_path, class: "btn btn-default" %>
 
-<%= render "attendees/form" %>
-
 <hr />
+
+<%= render "attendees/form" %>
 
 <h2>Listing attendees</h2>
 
@@ -47,3 +47,11 @@
     <% end %>
   </tbody>
 </table>
+
+<hr />
+
+<%= render 'notes/list' %>
+
+<hr />
+
+<%= render 'action_items/list' %>
