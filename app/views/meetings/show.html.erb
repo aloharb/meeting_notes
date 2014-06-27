@@ -50,7 +50,26 @@
 
 <hr />
 
-<%= render 'notes/list' %>
+<%= render "notes/form" %>
+
+<h2>Listing notes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Text</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @notes.each do |note| %>
+      <tr>
+        <td><%= note.text %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 
 <hr />
 

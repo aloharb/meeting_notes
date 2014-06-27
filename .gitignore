@@ -29,3 +29,5 @@ config/secrets.yml
 .ruby-gemset
 
 .ruby-version
+.loadpath
+.project

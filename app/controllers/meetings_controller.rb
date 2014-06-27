@@ -13,6 +13,8 @@ class MeetingsController < ApplicationController
     @attendee = Attendee.new
     @attendees = @meeting.attendees
 
+    @note = Note.new
+    @notes = @meeting.notes
   end
 
   # GET /meetings/new
