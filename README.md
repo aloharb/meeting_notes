@@ -6,6 +6,8 @@ information exchanged during meetings.
 
 The [Aloha.rb](http://www.meetup.com/aloharb/) meetup group in Honolulu started this project as a learning activity and a way to explore creating a project as a group.  Check out [our plan on Pivotal Tracker](https://www.pivotaltracker.com/s/projects/1070538) to see what we're working on.
 
+Have fun!
+
 ### Getting started with the virtual machine
 
 We've created a virtual machine to help ease the barrier to entry with
