@@ -5,4 +5,6 @@ env:
   - "DB=sqlite"
 gemfile: Gemfile
 install: "bundle install"
+before_script:
+- cp config/secrets.yml.travis config/secrets.yml
 script: "bundle exec rake"
