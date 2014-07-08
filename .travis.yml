@@ -2,7 +2,6 @@ language: ruby
 rvm:
   - "2.1.2"
 env:
-  secure: hHbETaCUWOEEDdo9+W6tV8ukMQ5gt3iJovTifjCHpmmcwrr9fv95PEtQhZavNry/mCf16zsF7JA13EquxMauEziamBaWh4lpvI9OWue2p3ikkf2r7hmOr37b6KfhhIOc7EU8X0q6QeTLW++aRYjqGHD9LLgtrenLQqyGUfrL5mE=
   - "DB=sqlite"
 gemfile: Gemfile
 install: "bundle install"
