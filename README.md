@@ -1,6 +1,9 @@
 meeting_notes
 =============
 
+[![Build
+Status](https://travis-ci.org/aloharb/meeting_notes.svg?branch=master)](https://travis-ci.org/aloharb/meeting_notes)
+
 This is an open source project to help capture and collaborate on useful
 information exchanged during meetings.
 
